@@ -1,4 +1,4 @@
-package day1;
+package com.tnsif.day1;
 
 public class PrimitiveDataTypesDemo {
 	public static void main(String[] args) {
