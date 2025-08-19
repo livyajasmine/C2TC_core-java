@@ -1,4 +1,4 @@
-package com.tnsif.day1;
+package day1;
 
 public class TypeCastingDemo {
 	public static void main(String[] args) {

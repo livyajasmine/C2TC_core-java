@@ -1,4 +1,4 @@
-package com.tnsif.day2;
+package day2;
 
 public class ForEachLoopDemo {
 	public static void main(String[] args) {
