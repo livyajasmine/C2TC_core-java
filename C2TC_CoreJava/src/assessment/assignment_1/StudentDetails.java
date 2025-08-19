@@ -1,30 +1,32 @@
 package assessment.assignment_1;
 
+
 import java.util.Scanner;
 
 public class StudentDetails {
-
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println("Enter your full name with initial:");
-        String fullName = scanner.nextLine();
+        // Taking input
+        System.out.println("Enter your Full Name with Initial:");
+        String name = sc.nextLine();
 
-        System.out.println("Enter your roll number:");
-        String rollNumber = scanner.nextLine();
+        System.out.println("Enter your Roll Number:");
+        long rollNo = sc.nextLong();
 
-        System.out.println("Enter your grade:");
-        String grade = scanner.nextLine();
+        System.out.println("Enter your Grade:");
+        char grade = sc.next().charAt(0);
 
-        System.out.println("Enter your percentage:");
-        String percentage = scanner.nextLine();
+        System.out.println("Enter your Percentage:");
+        String percentage = sc.next();
 
+        // Printing output
         System.out.println("\n--- Student Details ---");
-        System.out.println(fullName);
-        System.out.println(rollNumber);
+        System.out.println(name);
+        System.out.println(rollNo);
         System.out.println(grade);
         System.out.println(percentage);
 
-        scanner.close();
+        sc.close();
     }
 }
