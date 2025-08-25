@@ -1,9 +1,9 @@
 package day3.Constructor;
 
 public class Customer {
-	private String customerName;
-	private int customerId;
-	private String customerCity;
+	 private String customerName;
+	 private int customerId;
+	 private String customerCity;
 	 
 	// Default Constructor
 	public Customer() {
